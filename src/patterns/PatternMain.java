@@ -23,6 +23,26 @@ public class PatternMain {
 		//pattern05
 		//inverted right pyramid pattern
 		new Pattern05().pattern(6, "* ");
+		
+		//pattern06
+		//inverted numbered right pyramid pattern
+		new Pattern06().pattern(6);
+		
+		//pattern07
+		//star pyramid pattern
+		new Pattern07().pattern(6, "*");
+		
+		//pattern08
+		//inverted star pyramid pattern
+		new Pattern08().pattern(6, "*");
+		
+		//pattern09
+		//diamond star pattern
+		new Pattern09().pattern(6, "*");
+		
+		//pattern10
+		//half diamond star pattern
+		new Pattern10().pattern(6, "*");
 	}
 
 }
