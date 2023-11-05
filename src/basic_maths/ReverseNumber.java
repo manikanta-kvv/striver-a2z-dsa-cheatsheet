@@ -21,7 +21,7 @@ public class ReverseNumber {
 	 	* using modulo (%) operator collect the remainder and add to the value
 	 	* initiate value to zero  and for every remainder, multiply the number generated so far by 10, and add the remainder to it.
 	 */
-	// time complexity: O(n)
+	// time complexity: O(log n)
 	// space complexity: O(1)
 	public static int reverse(int num) {
 		
