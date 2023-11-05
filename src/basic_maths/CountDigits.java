@@ -45,7 +45,7 @@ public class CountDigits {
 		
 	}
 	
-	
+
 	/*approach 3: 
 		* to count number of digits, use logarithm base 10, log10(12345) = 4.091, 
 		* take integral part of it i.e., 4 and add 1 to it, which results 4 + 1 = 5 (number of digits)
