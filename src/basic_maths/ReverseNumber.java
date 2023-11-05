@@ -22,7 +22,7 @@ public class ReverseNumber {
 	 	* initiate value to zero  and for every remainder, multiply the number generated so far by 10, and add the remainder to it.
 	 */
 	// time complexity: O(log n)
-	// space complexity: O(1)
+	// space complexity: O(1) 
 	public static int reverse(int num) {
 		
 		int val = 0;
