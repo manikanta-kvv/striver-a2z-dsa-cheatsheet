@@ -18,7 +18,7 @@ Explanation: N has 4 digits
 public class CountDigits {
 
 	/*approach 1: 
-	 	* loop till the given number is not equal to zero using modulo (%) operator and increment the count
+	 	* loop till the given number is not equal to zero using division (/) operator and increment the count
 	*/
 	// time complexity: O(n)
 	// space complexity: O(1)
