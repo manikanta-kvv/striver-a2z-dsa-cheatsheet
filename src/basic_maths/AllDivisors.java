@@ -17,7 +17,7 @@ Explanation: Since 97 is a prime number, only 1 and 97 are printed.
 
 public class AllDivisors {
 
-	/* approach 1:
+	/* approach 1: bruteforce approach
 	 * loop from 1 to n, and check for every i, if num % i == 0
 	 */
 	// time complexity: O(n)
@@ -34,7 +34,7 @@ public class AllDivisors {
 	}
 	
 	
-	/* approach 2:
+	/* approach 2: optimal solution
 	 * half of the divisors are the quotients of remaining divisiors
 	 * so we can run loop to sqroot of num, which runs loop for the first part
 	 */
