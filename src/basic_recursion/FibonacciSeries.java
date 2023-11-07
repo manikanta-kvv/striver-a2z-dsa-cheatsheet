@@ -16,7 +16,8 @@ Explanation: 0 1 1 2 3 5 8 is the fibonacci series upto 6th term.(o based indexi
 public class FibonacciSeries {
 
 	/* approach 1:
-	 * using recursion method
+	 * using recursion method: let's say fibonacci of 5 as f(5)
+	 * so, f(5) = f(4) + f(3), which means f(n) = f(n-1) + f(n-2)
 	 */
 	// time complexity: O(n)
 	// space complexity: O(n)
