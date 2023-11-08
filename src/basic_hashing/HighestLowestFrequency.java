@@ -36,6 +36,7 @@ public class HighestLowestFrequency {
 				maxFrequency = val;
 				maxElement = key;
 			}
+			//if current val is lesser than minFrequency, update minFrequency and minElement
 			if(val < minFrequency) {
 				minFrequency = val;
 				minElement = key;
