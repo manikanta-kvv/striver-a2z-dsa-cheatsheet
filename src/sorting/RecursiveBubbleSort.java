@@ -7,6 +7,8 @@ public class RecursiveBubbleSort {
 	/* approach 1:
 	 * instead of using two loops, we can use recursion for the first loop
 	 */
+	// time complexity: O(n^2)
+	// space complexity: O(n) [for recursive stack space]
 	public static void recursiveBubbleSort(int[] arr, int i ) {
 		//recursive function
 		
