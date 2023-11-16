@@ -22,7 +22,7 @@ public class FindSecondSmallestSecondLargest {
 	 * find the first smallest and first largest and then loop through every element in array where the element != first smallest/largest
 	 * 
 	 */
-	//	Time Complexity: O(N), We do two linear traversals in our array
+	//	Time Complexity: O(2N), We do two linear traversals in our array
 	//	Space Complexity: O(1)
 	public static void secondSmallestSecondLargest_ap1(int[] arr ) {
 		if(arr.length == 0 || arr.length == 1) {
@@ -58,6 +58,8 @@ public class FindSecondSmallestSecondLargest {
 	/* approach 2:
 	 * updating the largest, secondLargest and smallest, secondSmallest at the same time 
 	 */
+	//	Time Complexity: O(N), Single-pass solution
+	//	Space Complexity: O(1)
 	public static void secondSmallestSecondLargest_ap2(int[] arr) {
 		int largest = Integer.MIN_VALUE;
 		int secondLargest = Integer.MIN_VALUE;
