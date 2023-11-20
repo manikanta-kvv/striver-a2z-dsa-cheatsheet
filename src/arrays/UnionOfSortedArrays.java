@@ -36,6 +36,8 @@ public class UnionOfSortedArrays {
 	/* approach 1: using two pointer approach
 	 * 
 	 */
+	//	Time Complexity: O(m+n), Because at max i runs for n times and j runs for m times.
+	//	Space Complexity : O(m+n) {If Space of Union ArrayList is considered} 
 	public static void union_ap1(int[] arr1, int[] arr2) {
 		List<Integer> list = new ArrayList<>();
 		int i = 0, j = 0;
