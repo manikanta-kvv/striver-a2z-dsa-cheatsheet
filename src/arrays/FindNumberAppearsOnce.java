@@ -48,6 +48,8 @@ public class FindNumberAppearsOnce {
 	 * XOR of any two numbers is zero, so by using XOR approach,
 	 * all the numbers that appears twice will be zero and we left with a number that appears once
 	 */
+	//	Time Complexity: O(N)
+	//	Space Complexity: O(1)
 	public static void numAppearsOnce_ap2(int[] arr) {
 		int xorOfArrElems = 0;
 		for(int i = 0; i < arr.length; i++) {
