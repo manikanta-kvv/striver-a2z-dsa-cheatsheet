@@ -65,6 +65,8 @@ public class TwoSum {
 	 * if arr[left] + arr[right] > target, then increment right pointer by 1
 	 * if arr[left] + arr[right] = target, then set isPresent to true and break the loop
 	 */
+	//	Time Complexity: O(N) + O(N*logN), where sorting takes N*logN time complexity
+	//	Space Complexity: O(1) 
 	public static void twoSum_ap2_var1(int[] arr, int target) {
 		int left = 0;
 		int right = arr.length-1;
