@@ -46,7 +46,7 @@ public class LongestSubarrayPositives {
 	
 	/* approach 2: using hashMap
 	 * run a loop and add every element in array to sum
-	 * and check if the sum == , then update maxLen
+	 * and check if the sum == k, then update maxLen
 	 * let sum = (sum - k) + k, then prefixSum will be (sum - k)
 	 * check if prefixSum (sum -k) present in hashMap, 
 	 * if present then take max of (maxLen and (i - value of prefixSum present in hashMap))
